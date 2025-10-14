@@ -1,61 +1,73 @@
-***Marvel API Explorer***<br>
-<br>
-***Marvel API Explorer*** — это интерактивное веб-приложение, которое позволяет пользователям исследовать данные о персонажах, комиксах и фильмах Marvel. <br>
-Проект разработан с использованием React и предоставляет удобный интерфейс для взаимодействия с Marvel API. <br>
+# 🦸‍♂️ Marvel API Explorer
 
-📖 ***Описание проекта***<br>
-Приложение предназначено для фанатов Marvel, разработчиков и всех, кто интересуется комиксами и персонажами этой вселенной. <br>
-Оно позволяет: <br>
-<br>
-Искать персонажей по имени. <br>
-Просматривать информацию о комиксах и фильмах. <br>
-Фильтровать данные по категориям (например, супергерои, суперзлодеи и т.д.). <br>
-Получать полную информацию о каждом объекте Marvel (биография, первый выпуск, история появления). <br>
-🛠️ ***Стек технологий***<br>
-Frontend: React, React Router. <br>
-API: Marvel Developer API. <br>
-Стилизация: CSS3, SCSS. <br>
-Хостинг: InfinityFree. <br>
-🚀***Основные фишки***<br>
-Быстрый поиск: Мгновенная фильтрация персонажей и комиксов с использованием Marvel API. <br>
-Интерактивный интерфейс: Дружественный UI с поддержкой адаптивного дизайна. <br>
-Динамические страницы: Каждая карточка персонажа или комикса открывается на отдельной странице с детальной информацией. <br>
-Оптимизация запросов: Минимизация количества вызовов API для повышения скорости загрузки. <br>
-📂 ***Структура проекта***<br>
-<br>
+**Marvel API Explorer** is an interactive web application that allows users to explore data about Marvel characters, comics, and movies.  
+The project is built with **React** and provides an intuitive interface for interacting with the **Marvel Developer API**.
+
+---
+
+<h3 align="center">📸 Project Preview</h3>
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/Figrac0/MarvelAPI/main/public/1.png" alt="Preview 1" width="850"/><br/>
+</p>
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/Figrac0/MarvelAPI/main/public/2.png" alt="Preview 2" width="850"/><br/>
+</p>
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/Figrac0/MarvelAPI/main/public/3.png" alt="Preview 3" width="850"/><br/>
+</p>
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/Figrac0/MarvelAPI/main/public/4.png" alt="Preview 4" width="850"/><br/>
+</p>
+
+---
+
+## 📖 Project Overview
+
+The application is designed for **Marvel fans, developers**, and anyone interested in exploring the world of comics and heroes.  
+It allows users to:
+
+- 🔍 Search for characters by name  
+- 📚 View detailed information about comics and movies  
+- 🧩 Filter data by categories (heroes, villains, etc.)  
+- 🧠 Get complete information about each Marvel entity (biography, first appearance, storyline)
+
+---
+
+## 🛠️ Tech Stack
+
+| Layer | Technology |
+|--------|-------------|
+| **Frontend** | React, React Router |
+| **API** | Marvel Developer API |
+| **Styling** | CSS3, SCSS |
+| **Hosting** | InfinityFree |
+
+---
+
+## 🚀 Key Features
+
+- ⚡ **Fast Search** – instant filtering of characters and comics using the Marvel API  
+- 🧭 **Interactive Interface** – responsive and user-friendly UI  
+- 🔗 **Dynamic Pages** – each character and comic opens in a dedicated detailed page  
+- 🧠 **Optimized Requests** – minimized API calls for faster loading and performance  
+
+---
+## 📂 Project Structure
+
 ├── src<br>
-│   ├── components      # Основные React-компоненты<br>
-│   ├── pages           # Страницы приложения<br>
-│   ├── services        # API-обёртки<br>
-│   ├── styles          # Стили (SCSS)<br>
-│   └── utils           # Утилитарные функции<br>
+│ ├── components # Core React components<br>
+│ ├── pages # Application pages<br>
+│ ├── services # API service wrappers<br>
+│ ├── styles # Global and component SCSS styles<br>
+│ └── utils # Helper functions<br>
 ├── public<br>
-│   └── index.html      # Основной HTML-файл<br>
-└── package.json        # Зависимости проекта<br>
-⚙️ ***Установка и запуск***<br>
-<br>
-Клонируйте репозиторий: <br>
-<br>
-git clone https://github.com/Figrac0/MainMarvelAPI.git<br>
-<br>
-Перейдите в директорию проекта: <br>
-<br>
-cd MainMarvelAPI<br>
-<br>
-Установите зависимости: <br>
-<br>
-npm install<br>
-<br>
-Запустите приложение: <br>
-<br>
-npm start
-<br>
-Приложение будет доступно по адресу http://localhost:3000. <br>
-<br>
-🌐 ***Демо***<br>
-Приложение размещено на бесплатном хостинге и доступно по адресу: <br>
-http://marvelapi.rf.gd <br>
-<br>
+│ └── index.html # Main HTML entry point<br>
+└── package.json # Project dependencies and scripts<br>
+
 📝 ***Использование Marvel API***<br>
 Для работы с приложением необходимо получить API-ключ Marvel Developer API. <br>
 Выполните следующие шаги: <br>
@@ -70,75 +82,3 @@ REACT_APP_MARVEL_API_KEY=your_public_key<br>
 
 
 
-
-
-# Getting Started with Create React App
-
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
-## Available Scripts
-
-In the project directory, you can run:
-
-### `yarn start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
-
-### `yarn test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `yarn build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `yarn eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)

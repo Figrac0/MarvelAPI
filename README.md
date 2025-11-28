@@ -14,12 +14,6 @@
   </div>
 </a>
 
-<a href="https://bring-it-up-eta.vercel.app/" target="_blank" style="text-decoration: none;">
-  <div style="background: linear-gradient(135deg, #4ECDC4, #44A08D); padding: 15px 30px; border-radius: 12px; color: white; font-weight: bold; font-size: 18px; box-shadow: 0 4px 15px rgba(78, 205, 196, 0.3); transition: all 0.3s ease; border: 2px solid white;">
-    🚀 Alternate Demo
-  </div>
-</a>
-
 </div>
 
 </div>

@@ -1,84 +1,110 @@
 # 🦸‍♂️ Marvel API Explorer
 
-**Marvel API Explorer** is an interactive web application that allows users to explore data about Marvel characters, comics, and movies.  
+[![Live Demo](https://img.shields.io/badge/🚀_Live_Demo-Visit_Site-FF6B6B?style=for-the-badge)](https://marvelapi-3d659.web.app)
+
+**Marvel API Explorer** is an interactive web application that allows users to explore data about Marvel characters and comics.  
 The project is built with **React** and provides an intuitive interface for interacting with the **Marvel Developer API**.
 
 ---
 
-<h3 align="center">📸 Project Preview</h3>
+<div align="center">
 
-<p align="center">
-  <img src="https://raw.githubusercontent.com/Figrac0/MarvelAPI/main/public/1.png" alt="Preview 1" width="850"/><br/>
+<h3>🎬 Project Preview</h3>
+
+<p>
+  <img src="https://raw.githubusercontent.com/Figrac0/MarvelAPI/main/public/1.png" alt="Marvel Characters Dashboard" width="850"/><br/>
+  <em>Marvel Characters Dashboard - Browse your favorite heroes and villains</em>
 </p>
 
-<p align="center">
-  <img src="https://raw.githubusercontent.com/Figrac0/MarvelAPI/main/public/2.png" alt="Preview 2" width="850"/><br/>
+<p>
+  <img src="https://raw.githubusercontent.com/Figrac0/MarvelAPI/main/public/2.png" alt="Character Details" width="850"/><br/>
+  <em>Character Details - Comprehensive information about each Marvel character</em>
 </p>
 
-<p align="center">
-  <img src="https://raw.githubusercontent.com/Figrac0/MarvelAPI/main/public/3.png" alt="Preview 3" width="850"/><br/>
+<p>
+  <img src="https://raw.githubusercontent.com/Figrac0/MarvelAPI/main/public/3.png" alt="Comics Explorer" width="850"/><br/>
+  <em>Comics Explorer - Dive into the vast Marvel comics collection</em>
 </p>
 
-<p align="center">
-  <img src="https://raw.githubusercontent.com/Figrac0/MarvelAPI/main/public/4.png" alt="Preview 4" width="850"/><br/>
+<p>
+  <img src="https://raw.githubusercontent.com/Figrac0/MarvelAPI/main/public/4.png" alt="Search & Filter" width="850"/><br/>
+  <em>Search & Filter - Find exactly what you're looking for</em>
 </p>
+
+</div>
 
 ---
 
 ## 📖 Project Overview
 
 The application is designed for **Marvel fans, developers**, and anyone interested in exploring the world of comics and heroes.  
-It allows users to:
+It provides a comprehensive platform to discover and learn about the Marvel Universe through an engaging, user-friendly interface.
 
-- 🔍 Search for characters by name  
-- 📚 View detailed information about comics and movies  
-- 🧩 Filter data by categories (heroes, villains, etc.)  
-- 🧠 Get complete information about each Marvel entity (biography, first appearance, storyline)
+### 🎯 What You Can Do
+
+- 🔍 **Search for characters** by name with real-time results
+- 📚 **Browse comics and movies** with detailed information
+- 🎭 **Filter characters** by categories, teams, and affiliations
+- 📖 **View complete profiles** including biography, first appearance, and storylines
+- 💫 **Explore relationships** between characters, comics, and events
 
 ---
 
 ## 🛠️ Tech Stack
 
-| Layer | Technology |
-|--------|-------------|
-| **Frontend** | React, React Router |
-| **API** | Marvel Developer API |
-| **Styling** | CSS3, SCSS |
-| **Hosting** | InfinityFree |
+<div align="center">
+
+| Layer | Technology | Purpose |
+|-------|-------------|---------|
+| **Frontend** | React, React Router | Component-based UI and navigation |
+| **API** | Marvel Developer API | Data source for Marvel content |
+| **Styling** | CSS3, SCSS | Modern and responsive design |
+| **State Management** | React Hooks | Local state management |
+| **Hosting** | Firebase Hosting | Production deployment |
+| **Build Tool** | Create React App | Development environment |
+
+</div>
 
 ---
 
-## 🚀 Key Features
+## ✨ Key Features
 
-- ⚡ **Fast Search** – instant filtering of characters and comics using the Marvel API  
-- 🧭 **Interactive Interface** – responsive and user-friendly UI  
-- 🔗 **Dynamic Pages** – each character and comic opens in a dedicated detailed page  
-- 🧠 **Optimized Requests** – minimized API calls for faster loading and performance  
+<div align="center">
+
+| Feature | Description | Benefit |
+|---------|-------------|---------|
+| ⚡ **Fast Search** | Real-time character and comic search | Instant access to Marvel universe |
+| 🎨 **Interactive UI** | Responsive, modern design | Great user experience on all devices |
+| 📱 **Dynamic Pages** | Dedicated detail pages for each entity | Comprehensive information display |
+| 🔧 **Optimized API** | Smart caching and request management | Faster loading, better performance |
+| 🌐 **Live Data** | Direct Marvel API integration | Always up-to-date information |
+
+</div>
 
 ---
-## 📂 Project Structure
 
-├── src<br>
-│ ├── components # Core React components<br>
-│ ├── pages # Application pages<br>
-│ ├── services # API service wrappers<br>
-│ ├── styles # Global and component SCSS styles<br>
-│ └── utils # Helper functions<br>
-├── public<br>
-│ └── index.html # Main HTML entry point<br>
-└── package.json # Project dependencies and scripts<br>
+## 🏗️ Project Structure
 
-📝 ***Использование Marvel API***<br>
-Для работы с приложением необходимо получить API-ключ Marvel Developer API. <br>
-Выполните следующие шаги: <br>
-<br>
-Зарегистрируйтесь на Marvel Developer Portal. <br>
-Создайте приложение и получите Public и Private Key. <br>
-Добавьте ваш Public Key в файл .env: <br>
-<br>
-REACT_APP_MARVEL_API_KEY=your_public_key<br>
-
-
-
-
+```bash
+marvel-api-explorer/
+├── 📁 src/
+│   ├── 📁 components/          # Reusable React components
+│   │   ├── CharacterCard.jsx
+│   │   ├── SearchBar.jsx
+│   │   └── LoadingSpinner.jsx
+│   ├── 📁 pages/               # Application pages
+│   │   ├── Home.jsx
+│   │   ├── Characters.jsx
+│   │   └── Comics.jsx
+│   ├── 📁 services/            # API service wrappers
+│   │   └── marvelAPI.js
+│   ├── 📁 styles/              # SCSS styles and themes
+│   │   ├── main.scss
+│   │   └── components/
+│   ├── 📁 utils/               # Helper functions
+│   │   └── helpers.js
+│   └── App.jsx                 # Main application component
+├── 📁 public/
+│   └── index.html              # HTML entry point
+└── package.json                # Dependencies and scripts
 
